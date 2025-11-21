@@ -10,8 +10,7 @@ This project implements an end-to-end pipeline for **Aspect-Based Sentiment Anal
 * **Data Augmentation**: Utilizing `nlpaug` to balance the dataset by generating synthetic negative reviews via antonym replacement.
 * **Deep Learning Model**: A PyTorch-based **Bi-Directional LSTM** with **FastText** embeddings for sentiment classification.
 
-## Technical Details
-For a deep dive into the methodology, algorithms (LDA, LSTM), and preprocessing steps (Unicode normalization, lemmatization), please read the [Technical Explanation](TECHNICAL_EXPLANATION.md).
+
 
 ## Dataset
 The data is scraped from Flipkart cell phone reviews. It includes product specifications and user reviews (text, title, rating).
